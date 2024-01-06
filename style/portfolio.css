@@ -8,6 +8,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -50,4 +51,51 @@ nav a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary-one{
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 120px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; 
+  margin-bottom: 20px;
+}
+.profile-pic{
+    width: 500px;
 }
